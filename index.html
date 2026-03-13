@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mama Bhanja Dhaba | Moradabad</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:black;
+color:white;
+}
+
+/* HERO HEADER */
+
+.hero{
+height:350px;
+background-image:url("images/sahi.jpeg");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+position:relative;
+}
+
+.hero-overlay{
+background:rgba(0,0,0,0.6);
+width:100%;
+height:100%;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.hero-overlay h1{
+font-size:48px;
+margin:0;
+color:#ff5252;
+letter-spacing:2px;
+}
+
+.hero-overlay p{
+font-size:20px;
+margin-top:10px;
+margin-bottom:20px;
+}
+
+/* CONTAINER */
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:20px;
+}
+
+/* CARD */
+
+.card{
+background:#111;
+padding:25px;
+margin-bottom:30px;
+border-radius:12px;
+border:1px solid #333;
+}
+
+/* BUTTONS */
+
+.btn{
+display:inline-block;
+margin:10px;
+padding:12px 22px;
+background:#e53935;
+color:white;
+text-decoration:none;
+border-radius:6px;
+}
+
+/* MENU GRID */
+
+.menu-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+margin-top:20px;
+}
+
+.menu-card{
+background:#1a1a1a;
+border-radius:10px;
+overflow:hidden;
+transition:0.3s;
+}
+
+.menu-card:hover{
+transform:scale(1.05);
+}
+
+.menu-card img{
+width:100%;
+height:160px;
+object-fit:cover;
+}
+
+.menu-body{
+text-align:center;
+padding:10px;
+}
+
+.menu-body h3{
+margin:0;
+color:#ff5252;
+}
+
+/* MAP */
+
+iframe{
+border-radius:10px;
+margin-top:10px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#b71c1c;
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+
+<header class="hero">
+
+<div class="hero-overlay">
+
+<h1>MAMA BHANJA DHABA</h1>
+<p>Delicious North Indian Food</p>
+
+<a class="btn" href="https://link.zomato.com/xqzv/rshare?id=132113996af4b9a41" target="_blank">
+🍽 Order Now
+</a>
+
+</div>
+
+</header>
+
+<div class="container">
+
+<!-- DETAILS -->
+
+<div class="card">
+
+<h2>📍 Restaurant Details</h2>
+
+<p><b>Name:</b> Mama Bhanja Dhaba</p>
+
+<p><b>Address:</b> Hanuman Murti Pandit Nagla Road, Moradabad</p>
+
+<p><b>Phone:</b> 8474997060</p>
+
+<a class="btn" href="tel:8474997060">📞 Call Now</a>
+
+<a class="btn" href="https://wa.me/918474997060">💬 WhatsApp</a>
+
+</div>
+
+<!-- POPULAR DISHES -->
+
+<div class="card">
+
+<h2>🔥 Popular Dishes</h2>
+
+<div class="menu-grid">
+
+<div class="menu-card">
+<img src="images/sahi.jpeg">
+<div class="menu-body">
+<h3>Shahi Paneer</h3>
+</div>
+</div>
+
+<div class="menu-card">
+<img src="images/kadai.jpeg">
+<div class="menu-body">
+<h3>Kadai Paneer</h3>
+</div>
+</div>
+
+<div class="menu-card">
+<img src="images/butter.jpeg">
+<div class="menu-body">
+<h3>Paneer Butter Masala</h3>
+</div>
+</div>
+
+<div class="menu-card">
+<img src="images/makhani.jpeg">
+<div class="menu-body">
+<h3>Dal Makhani</h3>
+</div>
+</div>
+
+<div class="menu-card">
+<img src="images/matar.jpeg">
+<div class="menu-body">
+<h3>Matar Paneer</h3>
+</div>
+</div>
+
+<div class="menu-card">
+<img src="images/jeera.jpeg">
+<div class="menu-body">
+<h3>Jeera Rice</h3>
+</div>
+</div>
+
+<div class="menu-card">
+<img src="images/naan.jpeg">
+<div class="menu-body">
+<h3>Butter Naan</h3>
+</div>
+</div>
+
+</div>
+
+<div style="text-align:center;margin-top:25px;">
+
+<a class="btn" href="https://link.zomato.com/xqzv/rshare?id=132113996af4b9a41" target="_blank">
+🍽 Show Full Menu on Zomato
+</a>
+
+</div>
+
+</div>
+
+<!-- LOCATION -->
+
+<div class="card">
+
+<h2>📍 Our Location</h2>
+
+<iframe
+width="100%"
+height="350"
+src="https://maps.google.com/maps?q=Hanuman%20Murti%20Pandit%20Nagla%20Road%20Moradabad&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>© 2026 Mama Bhanja Dhaba | Moradabad</p>
+
+</footer>
+
+</body>
+</html>
